@@ -1,0 +1,10 @@
+# ./docker-compose.yml
+
+version: '3'
+
+services:
+    mypro:
+        container_name: mypro
+        image: mypro:1.0
+        ports:
+            - 3001:30
